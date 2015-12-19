@@ -1,0 +1,27 @@
+# Defaults for Yaws initscript
+# sourced by /etc/init.d/yaws
+# installed at /etc/default/yaws by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Default user which runs Yaws web server.
+# If you want Yaws to listen privileged port 80, set it to root
+# or grant the capability for binding to privileged ports via
+#
+# setcap 'cap_net_bind_service=+ep' /usr/lib/erlang/erts-*/bin/beam
+#
+# (and/or beam.smp) and don't forget to regrant this capability
+# when Erlang will be upgraded.
+YAWS_USER=yaws
+
+# Default Yaws daemon id (when it starts from init script).
+# Put only alphanumeric symbols to the YAWS_ID variable.
+YAWS_ID=debian_yaws
+
+# Additional options that are passed to the daemon (see yaws(1)
+# for a full list).
+# --heart restarts the daemon if it crashes
+DAEMON_OPTS="--heart"
+

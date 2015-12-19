@@ -1,0 +1,3 @@
+SUBSYSTEM=="usb", ATTRS{idVendor}=="19d1", MODE="0666", OWNER="ilia"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1ebf", MODE="0666", OWNER="ilia", GROUP="ilia"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="18d1", MODE="0666", OWNER="ilia"

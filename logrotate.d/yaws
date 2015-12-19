@@ -1,0 +1,9 @@
+/var/log/yaws/*.access /var/log/yaws/*.auth /var/log/yaws/report.log {
+	weekly
+	missingok
+	rotate 12
+	compress
+	delaycompress
+	ifempty
+	nocreate
+}

@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit Microsoft_Windows_10_Home_and_Pro_x64_Clean_ISO
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>Microsoft_Windows_10_Home_and_Pro_x64_Clean_ISO</name>
+  <uuid>f3240b83-1617-4629-a131-b3fc891d6bff</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/ilia/Downloads/Microsoft Windows 10 Home and Pro x64 Clean ISO</path>
+  </target>
+</pool>
