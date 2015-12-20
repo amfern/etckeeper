@@ -1,0 +1,3 @@
+sdc5_crypt UUID=58c8044e-906e-4580-94d7-2137f2200d83 none luks
+home_crypt UUID=007b1f2d-e214-4dac-aad5-acd57868b6c8 /root/keyfile_home luks
+src_crypt UUID=4ba86cd8-995a-444c-a751-75f1e5f5f18c /root/keyfile_src luks
